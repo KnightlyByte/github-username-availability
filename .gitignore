@@ -1,0 +1,23 @@
+# Compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+
+# IDE-specific files and folders
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Editor-specific files
+.vscode/
+*.swp
+
+# Miscellaneous
+*.DS_Store
+*.bak
