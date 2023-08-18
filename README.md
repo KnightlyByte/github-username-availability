@@ -25,18 +25,27 @@ This project provides a minimalistic Flask API that interacts with the GitHub AP
     ```bash
    cd github-username-availability
 
-3. Install the required dependencies using `pip`:
+3. Create a virtual environment (recommended) to isolate project dependencies:
+
+   ```bash
+   python3 -m venv venv
+
+4. Activate the virtual environment:
+
+   ```bash
+   source venv/bin/activate
+
+5. Install the required dependencies using `pip`:
 
     ```bash
    pip install -r requirements.txt
 
 ## Usage
 
-
 1. Start the Flask development server:
 
    ```bash
-   python app.py
+   python3 app.py
 
 2. The API server will start, and you can access it at http://localhost:5000/check_username?username=desired_username.
 
