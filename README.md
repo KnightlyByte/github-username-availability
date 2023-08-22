@@ -18,7 +18,7 @@ This project provides a minimalistic Flask API that interacts with the GitHub AP
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/KnightlyByte/github-username-availability.git
+   git clone https://github.com/dustij/github-username-availability.git
 
 2. Navigate to the project directory:
     
